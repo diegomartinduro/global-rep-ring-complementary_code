@@ -1,5 +1,5 @@
 # GlobalRepresentationRing
-A program produced in CoCalc (kernel: sagemath 9.8) which produces tables for global representation rings of a finite group G.
+A script (kernel: sagemath 9.8) which produces tables for global representation rings of a finite group G.
 
 Let G be a finite group and X a G-set. Then X can be decomposed into a disjoint of orbits, X_i. By the Orbit Stabiliser Theorem the X_i are are equivalent to G/Stab(x_i) for any x_i \in X_i. Note that choosing a different x_i' \in X_i results in quotienting by a conjugate of Stab(x_i) - but these two G-sets are of course isomorphic. 
 
