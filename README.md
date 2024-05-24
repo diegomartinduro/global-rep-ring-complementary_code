@@ -1,5 +1,14 @@
-# GlobalRepresentationRing
-A script (kernel: sagemath 9.8) that produces tables for global representation rings of a finite group G.
+# Global Representation Ring complementary code
+
+This repo contains complementary code for the paper Global Representation Ring and Knutson Index (authors: Dylan Johnston, Diego Martín Duro, Dmitriy Rumynin). 
+arxiv: https://arxiv.org/abs/2403.18498
+
+Note: All .ipynb files should be run on a sagemath kernel. We used sagemath.9.8 but other versions should work also. The GAP package is required.
+
+# Contents
+
+1. Overview
+2. 
 
 Let G be a finite group and X a G-set. Then X can be decomposed into a disjoint of orbits, X_i. By the Orbit Stabiliser Theorem the X_i are are equivalent to G/Stab(x_i) for any x_i \in X_i. Note that choosing a different x_i' \in X_i results in quotienting by a conjugate of Stab(x_i) - but these two G-sets are of course isomorphic. 
 
